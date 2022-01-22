@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Mukta:wght@500&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Outfit:wght@300&family=Raleway:ital,wght@1,200&family=Roboto:wght@300&family=Source+Code+Pro&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="head">
+        <div class="col-4">
+          <div class="logo"><i class="fa fa-pinterest"></i> CardEditor</div>
+        </div>
+        <div class="col-4">
+          <div
+            onclick="document.getElementById('bg').style.background='royalblue';"
+            class="col-12 bg1"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(245, 177, 177)'"
+            ;
+            class="col-12 bg2"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(40, 50, 56)'"
+            ;
+            ;
+            class="col-12 bg3"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(251, 221, 163)'"
+            ;
+            class="col-12 bg4"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(243, 223, 113)'"
+            ;
+            class="col-12 bg5"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(202, 245, 146)'"
+            ;
+            class="col-12 bg6"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(214, 252, 207)'"
+            ;
+            class="col-12 bg7"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(130, 219, 167)'"
+            ;
+            class="col-12 bg8"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(225, 192, 252)'"
+            ;
+            class="col-12 bg9"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(41, 43, 49)'"
+            ;
+            class="col-12 bg10"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(207, 148, 199)'"
+            ;
+            class="col-12 bg11"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.background='rgb(175, 155, 173)'"
+            ;
+            class="col-12 bg12"
+          ></div>
+        </div>
+        <div class="col-4">
+          <div
+            onclick="document.getElementById('font_color').style.color='red'"
+            class="col-14 color1"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='green'"
+            class="col-14 color2"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='blue'"
+            class="col-14 color3"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='white'"
+            class="col-14 color4"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='goldenrod'"
+            class="col-14 color5"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='black'"
+            class="col-14 color6"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='purple'"
+            class="col-14 color7"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='brown'"
+            class="col-14 color8"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='maroon'"
+            class="col-14 color9"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='yellow'"
+            class="col-14 color10"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='gold'"
+            class="col-14 color11"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='darkorange'"
+            class="col-14 color12"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='tomato'"
+            class="col-14 color13"
+          >
+            A
+          </div>
+          <div
+            onclick="document.getElementById('font_color').style.color='royalblue'"
+            class="col-14 color14"
+          >
+            A
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="spl">
+            <div
+              onclick="document.getElementById('font_color').style.fontStyle='italic'"
+              class="col4"
+            >
+              <i>I</i>
+            </div>
+            <div
+              onclick="document.getElementById('p').style.fontWeight='bold'"
+              class="col4"
+            >
+              B
+            </div>
+            <div
+              onclick="document.getElementById('p').style.textTransform='lowercase'"
+              class="col4"
+            >
+              <p>A</p>
+            </div>
+            <div
+              onclick="document.getElementById('p').style.textTransform='uppercase'"
+              class="col4"
+            >
+              A
+            </div>
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid green'"
+            class="col12 border1"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(128, 0, 0)'"
+            class="col12 border2"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(226, 72, 0)'"
+            class="col12 border3"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(0, 0, 0)'"
+            class="col12 border4"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(218, 212, 212)'"
+            class="col12 border5"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(46, 0, 77)'"
+            class="col12 border6"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(17, 26, 17)'"
+            class="col12 border7"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(45, 48, 0)'"
+            class="col12 border8"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(0, 52, 68)'"
+            class="col12 border9"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(61, 0, 56)'"
+            class="col12 border10"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid rgb(88, 0, 0)'"
+            class="col12 border11"
+          ></div>
+          <div
+            onclick="document.getElementById('bg').style.border='5px solid gold'"
+            class="col12 border12"
+          ></div>
+        </div>
+      </div>
+      <div class="head_down">
+        <div class="col-5">
+          <h2>Card Shadow</h2>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px red'"
+            class="row-11"
+          >
+            RED
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px green'"
+            class="row-11"
+          >
+            GREEN
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px blue'"
+            class="row-11"
+          >
+            BLUE
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px black'"
+            class="row-11"
+          >
+            BLACK
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px white'"
+            class="row-11"
+          >
+            WHITE
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px royalblue'"
+            class="row-11"
+          >
+            ROYALBLUE
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px gold'"
+            class="row-11"
+          >
+            GOLD
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px gray'"
+            class="row-11"
+          >
+            GRAY
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px purple'"
+            class="row-11"
+          >
+            PURPLE
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px teal'"
+            class="row-11"
+          >
+            TEAL
+          </div>
+          <div
+            onclick="document.getElementById('bg').style.boxShadow='0 0 30px tomato'"
+            class="row-11"
+          >
+            TOMATO
+          </div>
+        </div>
+        <div class="col-5">
+          <h2>PhotoShadow</h2>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px red'"
+            class="row-11"
+          >
+            RED
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px green'"
+            class="row-11"
+          >
+            GREEN
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px blue'"
+            class="row-11"
+          >
+            BLUE
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px black'"
+            class="row-11"
+          >
+            BLACK
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px white'"
+            class="row-11"
+          >
+            WHITE
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px royalblue'"
+            class="row-11"
+          >
+            ROYALBLUE
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px gold'"
+            class="row-11"
+          >
+            GOLD
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px gray'"
+            class="row-11"
+          >
+            GRAY
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px purple'"
+            class="row-11"
+          >
+            PURPLE
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px teal'"
+            class="row-11"
+          >
+            TEAL
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.boxShadow='0 0 20px tomato'"
+            class="row-11"
+          >
+            TOMATO
+          </div>
+        </div>
+        <div id="mid_bg" class="col-5-mid">
+          <div class="facard">
+            <i
+              onclick="document.getElementById('bg').style.display='block'"
+              class="fa fa-id-card-o"
+            ></i>
+          </div>
+          <div onclick="refresh()" class="faref">
+            <i class="fa fa-refresh"> </i>
+          </div>
+          <!-- card -->
+          <div id="bg" class="card">
+            <div class="column3">
+              <div class="user-img">
+                <img
+                  id="img-shadow"
+                  src="img/pkk1-removebg-preview.png"
+                  alt="image"
+                />
+              </div>
+            </div>
+            <div class="column3">
+              <div id="font_color" class="name">Prem kumar</div>
+              <div class="work">Web Designer</div>
+            </div>
+            <div class="column3">
+              <h1>Creative</h1>
+              <p>MARKET</p>
+            </div>
+            <div class="line1"></div>
+            <div class="com-name">Your Company Name</div>
+            <div class="line2"></div>
+            <div class="column-1"></div>
+            <div id="p" class="address">
+              <p><i class="fa fa-phone"></i> 85-80-788-727</p>
+              <p><i class="fa fa-envelope"></i> prem342@gmail.com</p>
+              <p><i class="fa fa-globe"></i> www.yourwebsite.com</p>
+              <p>
+                <i class="fa fa-map-marker"></i> Nyay Khand-III , Indirapuram
+              </p>
+              ,
+            </div>
+          </div>
+
+          <!-- card end -->
+        </div>
+        <div class="col-5">
+          <h2>Photo Border</h2>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='5px'"
+            class="row-11"
+          >
+            5px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='10px'"
+            class="row-11"
+          >
+            10px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='15px'"
+            class="row-11"
+          >
+            15px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='20px'"
+            class="row-11"
+          >
+            20px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='25px'"
+            class="row-11"
+          >
+            25px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='30px'"
+            class="row-11"
+          >
+            30px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='45px'"
+            class="row-11"
+          >
+            45px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='50px'"
+            class="row-11"
+          >
+            50px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='55px'"
+            class="row-11"
+          >
+            55px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='60px'"
+            class="row-11"
+          >
+            60px
+          </div>
+          <div
+            onclick="document.getElementById('img-shadow').style.borderRadius='50%'"
+            class="row-11"
+          >
+            50%
+          </div>
+        </div>
+        <div class="col-5">
+          <h2>Background</h2>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='red'"
+            class="row-11"
+          >
+            RED
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='green'"
+            class="row-11"
+          >
+            GREEN
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='blue'"
+            class="row-11"
+          >
+            BLUE
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='black'"
+            class="row-11"
+          >
+            BLACK
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='white'"
+            class="row-11"
+          >
+            WHITE
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='royalblue'"
+            class="row-11"
+          >
+            ROYALBLUE
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='gold'"
+            class="row-11"
+          >
+            GOLD
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='gray'"
+            class="row-11"
+          >
+            GRAY
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='purple'"
+            class="row-11"
+          >
+            PURPLE
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='teal'"
+            class="row-11"
+          >
+            TEAL
+          </div>
+          <div
+            onclick="document.getElementById('mid_bg').style.background='tomato'"
+            class="row-11"
+          >
+            TOMATO
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function refresh() {
+        window.location.reload(refresh);
+      }
+    </script>
+  </body>
+</html>
