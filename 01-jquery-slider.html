@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image slider</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        color: rgb(42, 77, 143);
+        text-align: center;
+        padding: 15px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-weight: 900;
+        text-shadow: 0 0 2px;
+      }
+      .slider {
+        border: 10px solid rgb(42, 77, 143);
+        height: 70vh;
+        background-color: rgb(219, 210, 196);
+        width: 70%;
+        margin: auto;
+        box-shadow: 0 0 5px;
+      }
+      .slider img {
+        width: 70%;
+        height: 70vh;
+        position: absolute;
+        display: none;
+      }
+      .circle {
+        width: 20%;
+        position: absolute;
+        top: 75%;
+        left: 45%;
+      }
+      button {
+        width: 5px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 50%;
+        padding: 8px;
+        cursor: pointer;
+      }
+      .next {
+        font-size: 3rem;
+        font-weight: 900;
+        position: absolute;
+        top: 43%;
+        right: 15%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0.1%;
+      }
+      .prev {
+        font-size: 3rem;
+        font-weight: 900;
+        position: absolute;
+        top: 43%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 0.1%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Image slider</h2>
+
+    <div class="slider">
+      <img src="images/animal-800760_1920.jpg" alt="img1" class="slide1" />
+      <img src="images/baby-623417_1920.jpg" alt="imag2" class="slide2" />
+      <img src="images/father-22194_1920.jpg" alt="img3" class="slide3" />
+      <img src="images/elephant-1822636_1920.jpg" alt="img4" class="slide4" />
+      <img src="images/puffins-3567175_1920.jpg" alt="img5" class="slide5" />
+
+      <div class="next">></div>
+      <div class="prev"><</div>
+    </div>
+    <div class="circle">
+      <button id="btn1"></button>
+      <button id="btn2"></button>
+      <button id="btn3"></button>
+      <button id="btn4"></button>
+      <button id="btn5"></button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slide5").fadeIn(2000);
+        $(".slide5").fadeOut(5000);
+        $(".slide4").fadeIn(8000);
+        $(".slide4").fadeOut(11000);
+        $(".slide3").fadeIn(14000);
+        $(".slide3").fadeOut(17000);
+        $(".slide2").fadeIn(20000);
+        $(".slide2").fadeOut(23000);
+        $(".slide1").fadeIn(26000);
+
+        // --------------//
+
+        $("#btn1").click(function () {
+          $(".slide1").hide();
+          $(".slide2").hide();
+          $(".slide3").hide();
+          $(".slide4").hide();
+          $(".slide5").show();
+        });
+
+        $("#btn2").click(function () {
+          $(".slide1").hide();
+          $(".slide2").hide();
+          $(".slide3").hide();
+          $(".slide5").hide();
+          $(".slide4").show();
+        });
+        $("#btn3").click(function () {
+          $(".slide1").hide();
+          $(".slide2").hide();
+          $(".slide4").hide();
+          $(".slide5").hide();
+          $(".slide3").show();
+        });
+        $("#btn4").click(function () {
+          $(".slide1").hide();
+          $(".slide3").hide();
+          $(".slide4").hide();
+          $(".slide5").hide();
+          $(".slide2").show();
+        });
+        $("#btn5").click(function () {
+          $(".slide2").hide();
+          $(".slide3").hide();
+          $(".slide4").hide();
+          $(".slide5").hide();
+          $(".slide1").show();
+        });
+      });
+    </script>
+  </body>
+</html>
