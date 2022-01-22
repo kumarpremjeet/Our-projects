@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.head {
+  width: 100%;
+  height: 14vh;
+}
+.head_down {
+  width: 100%;
+  height: 85.7vh;
+  background-color: rgb(196, 188, 238);
+}
+.col-4 {
+  width: 25%;
+  height: 14vh;
+  float: left;
+}
+.logo {
+  font-size: 2.5rem;
+  padding: 6.5%;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 0 2px black;
+  color: rgb(0, 179, 250);
+  font-weight: 500;
+}
+.fa-pinterest {
+  text-shadow: 0 0 5px black;
+}
+.col-12 {
+  width: 12.5%;
+  float: left;
+  height: 4.7vh;
+  margin: 2%;
+}
+.col-12:hover {
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.bg1 {
+  background-color: royalblue;
+}
+.bg2 {
+  background-color: rgb(245, 177, 177);
+}
+.bg3 {
+  background-color: rgb(40, 50, 56);
+}
+.bg4 {
+  background-color: rgb(251, 221, 163);
+}
+.bg5 {
+  background-color: rgb(243, 223, 113);
+}
+.bg6 {
+  background-color: rgb(202, 245, 146);
+}
+.bg7 {
+  background-color: rgb(214, 252, 207);
+}
+.bg8 {
+  background-color: rgb(130, 219, 167);
+}
+.bg9 {
+  background-color: rgb(225, 192, 252);
+}
+.bg10 {
+  background-color: rgb(41, 43, 49);
+}
+.bg11 {
+  background-color: rgb(207, 148, 199);
+}
+.bg12 {
+  background-color: rgb(175, 155, 173);
+}
+.col-14 {
+  width: 11%;
+  margin: 1.6%;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  font-size: 2rem;
+  padding: 0.3% 0 0 2.6%;
+  text-shadow: 0 0 2px white;
+  font-weight: 700;
+}
+.col-14:hover {
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.color1 {
+  color: red;
+}
+.color2 {
+  color: green;
+}
+.color3 {
+  color: blue;
+}
+.color4 {
+  color: white;
+}
+.color5 {
+  color: goldenrod;
+}
+.color6 {
+  color: black;
+}
+.color7 {
+  color: purple;
+}
+.color8 {
+  color: brown;
+}
+.color9 {
+  color: maroon;
+}
+.color10 {
+  color: yellow;
+}
+.color11 {
+  color: gold;
+}
+.color12 {
+  color: darkorange;
+}
+.color13 {
+  color: tomato;
+}
+.color14 {
+  color: royalblue;
+}
+.spl {
+  width: 22%;
+  height: 13.7vh;
+  float: left;
+}
+
+.col4 {
+  width: 40%;
+  float: right;
+  margin: 5%;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 4% 0 0 7%;
+}
+.col4:hover {
+  box-shadow: 0 0 15px;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.col4 p {
+  font-size: 25px;
+  padding: 4px;
+}
+.col12 {
+  width: 9%;
+  height: 4.5vh;
+  float: left;
+  margin: 2%;
+}
+.col12:hover {
+  box-shadow: 0 0 15px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.border1 {
+  border: 5px solid green;
+}
+.border2 {
+  border: 5px solid rgb(128, 0, 0);
+}
+.border3 {
+  border: 5px solid rgb(226, 72, 0);
+}
+.border4 {
+  border: 5px solid rgb(0, 0, 0);
+}
+.border5 {
+  border: 5px solid rgb(218, 212, 212);
+}
+.border6 {
+  border: 5px solid rgb(46, 0, 77);
+}
+.border7 {
+  border: 5px solid rgb(17, 26, 17);
+}
+.border8 {
+  border: 5px solid rgb(45, 48, 0);
+}
+.border9 {
+  border: 5px solid rgb(0, 52, 68);
+}
+.border10 {
+  border: 5px solid rgb(61, 0, 56);
+}
+.border11 {
+  border: 5px solid rgb(88, 0, 0);
+}
+
+.border12 {
+  border: 5px solid gold;
+}
+
+/* 
+ */
+.col-5 {
+  width: 10%;
+  height: 85.4vh;
+  float: left;
+  margin: 0.1%;
+}
+.col-5 h2 {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  padding: 4% 0 0 7%;
+  text-shadow: 0 0 2px;
+  letter-spacing: 1px;
+}
+.col-5-mid {
+  width: 59.2%;
+  height: 81.4vh;
+  float: left;
+  margin: 2% 0 0 0;
+  background-color: white;
+  position: relative;
+}
+.row-11 {
+  background-color: white;
+  margin: 9% 7%;
+  padding: 12px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(0, 179, 250);
+  letter-spacing: 2px;
+}
+.row-11:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px;
+  transition: 1s;
+}
+
+/* card design */
+.card {
+  width: 59%;
+  height: 325px;
+  position: absolute;
+  top: 85px;
+  left: 180px;
+  box-shadow: 0 0 2px;
+  display: none;
+}
+.column3 {
+  width: 33.3%;
+  height: 160px;
+  float: left;
+}
+.user-img {
+  width: 130px;
+  height: 130px;
+  margin: 12% 0 0 17%;
+}
+.user-img img {
+  width: 100%;
+  height: 130px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 28% 0 0 0;
+  font-family: sans-serif;
+}
+.work {
+  font-style: oblique;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 3%;
+  color: rgb(255, 208, 0);
+  letter-spacing: 2px;
+}
+.column3 h1 {
+  margin-top: 15%;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 500;
+  color: rgb(8, 156, 8);
+}
+.column3 p {
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+.line1 {
+  width: 70%;
+  height: 3px;
+  background-color: rgb(27, 27, 23);
+  margin: 33% 0 0 0;
+  clear: both;
+  border-radius: 0 50% 50% 0;
+}
+.line2 {
+  width: 70%;
+  height: 4px;
+  float: right;
+  background-color: rgb(27, 27, 23);
+  margin: 1% 0 0 0;
+  clear: both;
+  border-radius: 50% 0 0 50%;
+}
+.com-name {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.column-1 {
+  background-color: rgb(194, 168, 21);
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+.address {
+  background-color: black;
+  height: 95px;
+  border-radius: 0 0 70% 0;
+  padding: 10px;
+}
+.address p {
+  color: white;
+  margin: 0.7% 0 0 5%;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+/* card design */
+.facard {
+  position: absolute;
+  top: 490px;
+  left: 220px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.faref {
+  position: absolute;
+  top: 490px;
+  left: 650px;
+  font-size: 3rem;
+  cursor: pointer;
+}
