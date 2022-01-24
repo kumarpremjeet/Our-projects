@@ -323,35 +323,35 @@
   margin: 2%;
 }
 .bg0 {
-  background-image: url(/src/rrr.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/26/22/40/child-613199_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg1 {
-  background-image: url(/src/ddd.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/01/01/56/yoga-3053488_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg2 {
-  background-image: url(/src/eee.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/09/19/19/coins-1726618_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg3 {
-  background-image: url(/src/fff.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2019/05/12/06/14/container-4197259_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg4 {
-  background-image: url(/src/aaa.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/08/12/49/alone-3592108_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg5 {
-  background-image: url(/src/rrr.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/01/21/20/earth-1365995_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg6 {
-  background-image: url(/src/sss.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2020/11/01/10/35/street-5703332_960_720.jpg);
   background-size: 100% 310px;
 }
 .bg7 {
-  background-image: url(/src/vvv.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_960_720.jpg);
   background-size: 100% 310px;
 }
 
@@ -445,7 +445,7 @@
   width: 70%;
   height: 600px;
   float: left;
-  background-image: url(/src/man-791049.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg);
   background-size: 100% 600px;
   position: relative;
 }
@@ -701,7 +701,7 @@
 }
 
 .bak-img0 {
-  background-image: url(/src/g1.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg);
   background-size: 100% 350px;
   background-repeat: no-repeat;
 }
