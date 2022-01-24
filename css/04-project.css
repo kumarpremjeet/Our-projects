@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.warapper {
+  width: 900px;
+  height: 740px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+}
+.main-back {
+  width: 290px;
+  height: 540px;
+  background-color: #83b9e8;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  border-radius: 40px;
+  border: 2px solid gray;
+}
+.main-back-button {
+  width: 4px;
+  height: 53px;
+  border: 1px solid black;
+  background-color: #688197;
+  position: absolute;
+  top: 170px;
+  right: 287px;
+  border-radius: 50%;
+}
+.camera-main {
+  width: 120px;
+  height: 130px;
+  box-shadow: 1px 1px 7px 5px gray;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-radius: 20px;
+}
+.col-3 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: #272924;
+  box-shadow: 1px 4px 4px;
+}
+.p1 {
+  top: 5px;
+  left: 5px;
+}
+.p2 {
+  top: 70px;
+  left: 5px;
+}
+.p3 {
+  top: 37px;
+  left: 63px;
+}
+.sub-camera {
+  width: 33px;
+  height: 33px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: #0b0c14;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.cam-small {
+  width: 12px;
+  height: 10px;
+  background-color: #4930f8;
+  box-shadow: 1px 1px 7px white;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  left: 7px;
+}
+.logo {
+  position: absolute;
+  font-size: 70px;
+  top: 220px;
+  left: 110px;
+  color: rgb(225, 214, 241);
+}
+.flash {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 80px;
+  border: 0.7px solid gray;
+  box-shadow: 2px 2px 5px gray;
+}
+.flash1 {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 85px;
+  border: 0.7px solid gray;
+  box-shadow: 1px 1px 3px;
+}
+.sensor {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 97px;
+  left: 105px;
+  border: 0.7px solid gray;
+}
+
+/* part of front start */
+
+.main-front {
+  width: 290px;
+  height: 540px;
+  background-color: blue;
+  position: absolute;
+  top: 70px;
+  left: 183px;
+  border-radius: 45px;
+  border: 2px solid gray;
+}
+.power {
+  width: 3px;
+  height: 30px;
+  border: 0.5px solid gray;
+  position: absolute;
+  background-color: black;
+  top: 80px;
+  right: 288px;
+}
+.up-button {
+  width: 3px;
+  height: 40px;
+  border: 0.5px solid gray;
+  position: absolute;
+  background-color: black;
+  top: 130px;
+  right: 288px;
+}
+.dn-button {
+  width: 3px;
+  height: 40px;
+  border: 0.5px solid gray;
+  position: absolute;
+  background-color: black;
+  top: 185px;
+  right: 288px;
+}
+.button-right {
+  width: 3px;
+  height: 58px;
+  border: 0.5px solid gray;
+  position: absolute;
+  background-color: black;
+  top: 160px;
+  left: 287px;
+}
+
+.main-border {
+  will-change: 100%;
+  height: 540px;
+  border: 10px solid black;
+  border-radius: 40px;
+  background-image: url(image/home\ imag.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.speaker {
+  width: 110px;
+  height: 21px;
+  background-color: black;
+  position: absolute;
+  left: 83px;
+  border-radius: 0 0 15px 15px;
+}
+.sub-speaker {
+  width: 45px;
+  height: 5px;
+  background-color: rgb(59, 56, 56);
+  position: absolute;
+  left: 33px;
+  border-radius: 50px;
+}
+.cam-front {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid blue;
+  position: absolute;
+  box-shadow: 1px 1px 5px gray;
+  left: 9px;
+  top: 6px;
+}
+/* home scren */
+.wifi {
+  position: absolute;
+  top: 21px;
+  color: white;
+  right: 55px;
+  font-size: 10px;
+}
+.fa-battery-full {
+  position: absolute;
+  top: 21px;
+  color: white;
+  right: 33px;
+  font-size: 10px;
+}
+.time {
+  position: absolute;
+  color: white;
+  top: 21px;
+  left: 30px;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.home-main {
+  height: 440px;
+  margin: 18% 10%;
+  position: relative;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.bg1 {
+  background-color: rgb(140, 164, 165);
+}
+.bg2 {
+  background-color: turquoise;
+}
+.home-col2 {
+  width: 45%;
+  height: 16vh;
+  padding: 3%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px;
+}
+.home-col2 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+.home-col2 p {
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  color: white;
+}
+.fa-cloud {
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 14%;
+}
+.home-col2 h5 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 11px;
+  position: absolute;
+  top: 65px;
+  font-weight: 100;
+}
+.wether {
+  text-align: center;
+  color: white;
+  margin-top: 6%;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+}
+.ps-clock {
+  position: absolute;
+  top: 19%;
+  left: 140px;
+}
+.col4 {
+  width: 40px;
+  height: 50px;
+  margin: 12% 2% 0 2%;
+  display: inline-flex;
+  clear: both;
+  position: relative;
+  text-align: center;
+}
+.fa-play-circle-o {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 6px;
+  border-radius: 20%;
+  background-color: green;
+  color: white;
+}
+.fa-calendar {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  color: #4930f8;
+  background-color: white;
+}
+.fa-image {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+}
+.fa-camera {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background-color: rgb(56, 48, 48);
+  color: rgb(179, 153, 8);
+}
+.fa-google {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #2f19f0;
+  color: rgb(185, 2, 2);
+  text-decoration: none;
+}
+.fa-facebook {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 5px 8px;
+  border-radius: 20%;
+  background: #3b5998;
+  color: white;
+  text-decoration: none;
+}
+.fa-twitter {
+  position: absolute;
+  text-decoration: none;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #55acee;
+  color: white;
+}
+.fa-youtube {
+  position: absolute;
+  text-decoration: none;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  position: absolute;
+  text-decoration: none;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  position: absolute;
+  text-decoration: none;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #cb2027;
+  color: white;
+}
+.fa-snapchat-ghost {
+  position: absolute;
+  text-decoration: none;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-automobile {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background-color: rgb(56, 48, 48);
+  color: burlywood;
+}
+.fa-dashboard {
+  position: absolute;
+  left: 1px;
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 20%;
+  background-color: rgb(139, 2, 2);
+  color: rgb(148, 84, 0);
+}
+
+.app-contant {
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 3px;
+  color: white;
+}
+.button-app {
+  width: 230px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 465px;
+  left: 29px;
+  border-radius: 20px;
+}
+.bottom {
+  font-size: 30px;
+  padding: 7px 10px;
+  margin-left: 10%;
+  border-radius: 30%;
+  margin-top: 3%;
+}
+.fa-phone {
+  background-color: rgb(20, 255, 20);
+  color: white;
+}
+.fa-music {
+  color: white;
+  background-color: rgb(255, 2, 44);
+}
+.fa-compass {
+  color: white;
+  background-color: rgb(0, 204, 255);
+}
+.point {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  margin: 10% 0 0 1%;
+}
+.ps-point {
+  margin-left: 45%;
+}
+/* home scren */
