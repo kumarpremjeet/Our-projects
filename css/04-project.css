@@ -175,7 +175,7 @@
   height: 540px;
   border: 10px solid black;
   border-radius: 40px;
-  background-image: url(image/home\ imag.png);
+  background-image: url(src/home\ imag.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
