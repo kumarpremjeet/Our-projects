@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media query bassic project</title>
+    <!--font cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- font cdn end  -->
+
+    <link rel="stylesheet" href="05-project.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">LOGO</div>
+      <div class="sidebar">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <div class="home">
+        <ul id="sideBar">
+          <li>
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-eject"></i> About</a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-servicestack"></i> Services</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-address-book"></i> Contact</a>
+          </li>
+
+          <li id="register">
+            <i class="far fa-user-circle"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="far fa-registered"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container">
+      <section class="bgImag">
+        <div class="subSection">
+          <h1>
+            <span>‘‘</span> If you truly love nature, <br />
+            you will find beauty everywhere. <span>’’</span>
+          </h1>
+        </div>
+      </section>
+      <section class="formm">
+        <h2>Login</h2>
+        <p>Dont't havean account yet? <a href="#">Sign Up</a></p>
+        <form action="#" id="login_form" onsubmit="return  form1()">
+          <div class="entry">
+            <label for="id">Enter your gmail:</label>
+            <input
+              class="inpt"
+              type="email"
+              name="id"
+              id="user"
+              placeholder="you12@example.com"
+            />
+            <p id="UserEror"></p>
+          </div>
+          <div class="entry">
+            <label for="pass">Password:</label>
+            <input
+              class="inpt"
+              type="password"
+              id="pass"
+              placeholder="Enter 6 character or more.."
+            />
+            <p id="passEror"></p>
+          </div>
+          <div class="entry">
+            <label for="remander">
+              <input type="checkbox" name="pass" /> Remember me
+            </label>
+            <a id="forgot" href="#">Forgot password?</a>
+          </div>
+          <input class="login" type="submit" name="submit" value="LOGIN" />
+          <div class="styl">
+            <div class="fl"></div>
+            Login with
+            <div class="fr"></div>
+          </div>
+          <button><i class="fab fa-google"></i> Google</button>
+          <button><i class="fab fa-facebook"></i> Facebook</button>
+        </form>
+      </section>
+      <section class="formm1">
+        <h2>Register</h2>
+        <p id="havea">Havean account yet? <a href="#">Login</a></p>
+        <form autocomplete="off" onsubmit=" return regis()">
+          <div class="registerInput">
+            <label for="fname">Frist name :</label>
+            <input
+              class="reginput"
+              id="fname"
+              type="text"
+              name="fname"
+              placeholder="Enter your frist name"
+            />
+            <p id="fnameError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="lname">Last name :</label>
+            <input
+              class="reginput"
+              id="lname"
+              type="text"
+              name="lname"
+              placeholder="Enter your last name"
+            />
+            <p id="lnameError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="father">Father's name :</label>
+            <input
+              class="reginput"
+              id="father"
+              type="text"
+              name="father"
+              placeholder="Enter your father's name"
+            />
+            <p id="fatherError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="mobile">Mobile :</label>
+            <input
+              class="reginput"
+              id="mobile"
+              type="text"
+              name="mobile"
+              placeholder="Mobile"
+            />
+            <p id="mobileError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="email">Email :</label>
+            <input
+              class="reginput"
+              id="email"
+              type="text"
+              name="email"
+              placeholder="Email"
+            />
+            <p id="emailError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="ocupation">Ocupation :</label>
+            <input
+              class="reginput"
+              id="ocupation"
+              type="text"
+              name="ocupation"
+              placeholder="ocupation"
+            />
+            <p id="ocupationError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="newpass">Create password:</label>
+            <input
+              class="reginput"
+              id="createpass"
+              type="text"
+              name="password"
+              placeholder="Create password"
+            />
+            <p id="createError"></p>
+          </div>
+
+          <div class="registerInput">
+            <label for="confpass">Conform password :</label>
+            <input
+              class="reginput"
+              id="confpass"
+              type="text"
+              name="conformpass"
+              placeholder="Conform password"
+            />
+            <p id="confpassError"></p>
+          </div>
+          <div class="registerInput">
+            <input type="submit" value="Register" name="submit" id="resister" />
+          </div>
+        </form>
+      </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+     <script src="05-project.js"></script>
+  </body>
+</html>
