@@ -306,12 +306,9 @@ label {
     width: 100%;
     height: 95vh;
   }
-  .bgImag {
-    height: 100vh;
-    background-size: 100% 100vh;
-  }
+
   .subSection {
-    height: 100vh;
+    height: 93.4vh;
   }
   .registerInput {
     height: 10vh;
