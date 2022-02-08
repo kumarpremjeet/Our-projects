@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #035004;
+  align-items: center;
+  padding: 1%;
+}
+.logo {
+  width: 20%;
+  font-family: arial;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+    0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+    0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+}
+.home {
+  width: 80%;
+}
+.home ul {
+  display: flex;
+}
+.home ul li {
+  list-style: none;
+  margin-left: 5%;
+}
+.home ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.home ul li a:hover {
+  color: rgb(161, 159, 159);
+  transition: 0.5s;
+}
+.fa-bars {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+.fa-user-circle {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 0 0 7px black;
+}
+.fa-registered {
+  font-size: 1.3rem;
+  color: whitesmoke;
+  cursor: pointer;
+  text-shadow: 0 0 7px black;
+}
+#register {
+  margin-left: 27%;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.bgImag {
+  width: 100%;
+  height: 91vh;
+  background: #ffffff;
+  background-image: url(src/undraw_among_nature_p1xb.svg);
+  background-size: 100% 91vh;
+  background-repeat: no-repeat;
+}
+.bgImag h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 18%;
+  color: #281c08;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+span {
+  font-size: 3rem;
+  color: #281c08;
+}
+.subSection {
+  top: 0;
+  border: 1px dotted #035004;
+  height: 91vh;
+  background-color: rgba(3, 80, 4, 0.5);
+}
+/* form css start here */
+.formm {
+  width: 35%;
+  height: 81vh;
+  background-color: rgba(3, 80, 4, 0.5);
+  display: none;
+  padding: 5% 2% 0 2%;
+}
+
+.formm h2 {
+  color: #223017;
+  font-family: sans-serif;
+  padding: 1%;
+}
+.formm p {
+  color: rgb(77, 67, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  padding: 1%;
+}
+
+.styl {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0 0 0;
+}
+.fl {
+  width: 37%;
+  height: 0.4vh;
+  background-color: gray;
+  margin: 3% 2% 0 0;
+  border-radius: 50% 0 0 50%;
+}
+.fr {
+  width: 37%;
+  height: 0.4vh;
+  background-color: gray;
+  margin: 3% 0 0 2%;
+  border-radius: 0 50% 50% 0;
+}
+#login_form {
+  /* background-color: white; */
+  margin-top: 5%;
+}
+.entry {
+  width: 100%;
+  height: 11vh;
+  margin: 1%;
+}
+.inpt {
+  width: 90%;
+  padding: 3%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+#forgot {
+  margin-top: 5%;
+  float: right;
+}
+.login {
+  width: 88%;
+  margin-left: 5%;
+  padding: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #035004;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.entry p {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.fa-google {
+  font-size: 1.5rem;
+  color: rgb(216, 49, 49);
+}
+.fa-facebook {
+  color: royalblue;
+  font-size: 1.5rem;
+}
+#login_form button {
+  width: 35%;
+  padding: 3%;
+  margin: 5% 1% 0 10%;
+  border-radius: 8px;
+  border: 1px solid green;
+}
+
+/* register form */
+.formm1 {
+  width: 35%;
+  height: 88vh;
+  background-color: rgba(3, 80, 4, 0.5);
+  display: none;
+  padding: 1.5% 2% 0 2%;
+}
+p {
+  color: red;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formm1 h2 {
+  color: #281c08;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#havea {
+  color: #3a3f3a;
+  padding: 1% 0 2%;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.registerInput {
+  height: 9vh;
+}
+.reginput {
+  width: 90%;
+  padding: 2.9%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #bae0bc;
+}
+#resister {
+  width: 80%;
+  margin-left: 5%;
+  padding: 2.5%;
+  border: none;
+  border-radius: 8px;
+  background-color: #035004;
+  color: rgb(238, 230, 230);
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------------media query---------------- */
+@media (max-width: 985px) {
+  .fa-bars {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .sidebar {
+    width: 75%;
+  }
+  .home {
+    width: 100%;
+    box-shadow: 0 0 1px whitesmoke;
+    display: none;
+    margin-top: 1%;
+  }
+  .home ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .home ul li {
+    margin-top: 3%;
+  }
+  #register {
+    margin-left: 5%;
+  }
+
+  section h1 {
+    font-size: 3rem;
+    margin-top: 10%;
+  }
+}
