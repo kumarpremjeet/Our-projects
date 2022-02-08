@@ -10,7 +10,7 @@
 
 <a href="https://kumarpremjeet.github.io/Our-projects/04-project.html"> 04. [04-project] Iphone</a>  |  <a href="https://github.com/kumarpremjeet/Our-projects/blob/main/04-project.html"> Source code</a>  <br>
 
-<a href="https://kumarpremjeet.github.io/Our-projects/05-project.html"> 04. [05-project] Form validation & basic media query</a>  |  https://github.com/kumarpremjeet/Our-projects/blob/main/05-project.html"> Source code</a>  <br>
+<a href="https://kumarpremjeet.github.io/Our-projects/05-project.html"> 04. [05-project] Form validation & basic media query</a>  | <a href="https://github.com/kumarpremjeet/Our-projects/blob/main/04-project.html"> Source code</a>   <br>
 
 
 
